@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+.conteiner {
+    width: 100%;
+    border: solid black 1px;
+    font-family: 'source sans pro' ,sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 820px;
+    background-color: rgba(255, 240, 221, 0.836);
+}
+
+.header_left {
+    width: 50%;
+    background-image: url(project/images/home-img.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.title {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.navigation {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-left: 90px;
+    margin: 0 70px 150px 90px;
+}
+
+.nav {
+    color: gray;
+    margin-right: 40px;
+    font-size: 1.1rem;
+}
+
+.header_right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.header_blok {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 40px;
+    font-size: 1.5rem;
+}
+
+.desc {
+    color: gray;
+    width: 94%;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.tittle {
+    font-size: 3rem;
+    padding: 15px 0;
+}
+
+.button {
+    border: solid black 2px;
+    border-radius: 30px;
+    width: 160px;
+    margin-left: 40px;
+    margin-top: 60px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.donec-auctor {
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: row;
+}
+
+.donec-auctor-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.donec-auctor-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle_desc {
+    color: rgb(255, 215, 35);
+    width: 96%;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    margin: 15px 0 50px 0;
+}
+
+.donec-auctor_blok_top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    font-size: 1.5rem;
+}
+
+.donec-auctor_blok_bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.donec-auctor_blok_bottom-left {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 166, 0, 0.589);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.donec-auctor_blok_bottom-rigth {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 51, 0, 0.699);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 2.6rem;
+    color: white;
+}
+
+.donec_title {
+    color: white;
+    font-size: 2rem;
+}
+
+.donec_desk {
+    color: white;
+    width: 80%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.skill-top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.skill-top_left {
+    background-image: url(project/images/about-img.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+}
+
+.skill-top_rigth {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 162, 22, 0.753);
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.skill__title {
+    margin: 20px 0 0 40px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.skill-desk {
+    color: white;
+    line-height: 1.8;
+    font-size: 1rem;
+    margin: 15px 0 15px 40px;
+    
+}
+
+.skills {
+    margin: 15px 0 30px 40px;
+    font-weight: bold;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.status{
+    width: 90%;
+    height: 25px;
+    
+    border-color: ;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.status_f-end {
+    border-bottom: black solid 2px;
+    width: 90%;
+}
+
+.f-end__bc-white {
+    border-bottom: white solid 2px;
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.status_HTML {
+    border-bottom: black solid 2px;
+    width: 80%;
+}
+
+.HTML__bc-white {
+    border-bottom: white solid 2px;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.status_backend {
+    border-bottom: black solid 2px;
+    width: 70%;
+}
+
+.backend__bc-white {
+    border-bottom: white solid 2px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.skill-bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-bottom_left {
+    width: 50%;
+    height: 100%;
+    background-color: black ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skill-bottom_rigth {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.fa-sellcast {
+    color: black;
+}
+
+.donec_title__color {
+    color: black;
+}
+
+.donec_desk__color {
+    color: gray;
+}
+
+.experiences {
+    width: 100%;
+    height: 390px;
+    display: flex;
+    flex-direction: row;
+}
+
+.experiences_left {
+    width: 50%;
+    height: 100%;
+    background-image: url(project/images/experience-img.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.experiences_right {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 51, 0, 0.699);
+}
+
